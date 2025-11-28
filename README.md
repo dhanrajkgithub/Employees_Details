@@ -1,0 +1,9 @@
+The Employee Management System is a web-based application developed using Java, JSP, Servlets, and JDBC to streamline the process of managing employee information within an organization. This project follows the MVC (Model–View–Controller) design pattern, ensuring a clean separation between the presentation layer, business logic, and data access operations. The goal of the system is to simplify administrative tasks, reduce manual paperwork, and provide a centralized platform for storing and managing employee records.
+
+The system begins with a secure login module, where only authorized users such as administrators or HR personnel can access the application. After successful authentication, users are directed to a dashboard that provides access to various modules, including Add Employee, View Employee, Update Employee, and Delete Employee. The “Add Employee” module allows administrators to insert essential details such as employee name, ID, department, salary, email, and contact information. All inputs are validated to ensure data accuracy.
+
+The “View Employee” module displays all existing employees in a tabular format using JSP pages, retrieving the data dynamically from a MySQL database using JDBC. Users can update or delete specific employee information directly from the list. The update module loads existing data into an editable form, while the delete operation removes the record permanently from the database.
+
+The backend connectivity is handled through JDBC, where a dedicated database connection class manages connections and SQL queries. Servlets handle request processing and control navigation between pages, while JSP is used for front-end presentation.
+
+This project provides an efficient, fast, and user-friendly interface for managing employee data. It is ideal for learning real-time web development, database interaction, and Java EE concepts, making it a perfect beginner-to-intermediate level project for students and developers.
